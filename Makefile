@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = `pkg-config --cflags wayland-server` -02 -Wall
+CFLAGS = `pkg-config --cflags wayland-server` -O2 -Wall
 LDFLAGS = `pkg-config --libs wayland-server`
 
 SRC = src/main.c
